@@ -1,7 +1,7 @@
 """CLI entry point for the code review agent."""
 
 import argparse
-from agent.reviewer import review_code
+from agent.gemini_api_integration import review_code
 from tools.file_reader import read_file
 
 

@@ -1,11 +1,11 @@
 # Code Review Agent
 
-An AI-based code review assistant built with the Anthropic Claude API.
+An AI-based code review assistant built with the Google Gemini Flash API.
 
 ## Installation
 
 1. Clone the repository
-2. Create `.env` file from `.env.example` and add your Anthropic API key
+2. Create `.env` file from `.env.example` and add your Gemini API key
 3. Run `pip install -r requirements.txt`
 
 ## Usage
@@ -30,7 +30,7 @@ pytest tests/
 ## Project Structure
 
 - **agent/** - AI agent and tool orchestration
-  - `reviewer.py` - Claude-based code reviewer with tool use loop
+  - `gemini_api_integration.py` - Gemini Flash code reviewer integration
   - `__init__.py` - Package initialization
 
 - **tools/** - Code analysis tools
